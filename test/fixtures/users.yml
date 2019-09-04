@@ -4,10 +4,10 @@ one:
   username: MyString
   password_digest: MyString
   points: 1
-  last_seen: 2019-09-04 10:56:10
+  last_seen: 2019-09-04 11:26:01
 
 two:
   username: MyString
   password_digest: MyString
   points: 1
-  last_seen: 2019-09-04 10:56:10
+  last_seen: 2019-09-04 11:26:01
