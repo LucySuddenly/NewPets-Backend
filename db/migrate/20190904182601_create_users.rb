@@ -3,8 +3,8 @@ class CreateUsers < ActiveRecord::Migration[5.2]
     create_table :users do |t|
       t.string :username
       t.string :password_digest
-      t.integer :points
-      t.datetime :last_seen
+      t.integer :points, default: 0
+      t.datetime :last_seen, default: Time.now
 
       t.timestamps
     end
